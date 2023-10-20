@@ -129,3 +129,6 @@ REST_FRAMEWORK = {
         'rest_framework.permissions.IsAuthenticated', 
         )
 }
+
+#add the following line
+DJOSER={"USER_ID_FIELD":"username"}
